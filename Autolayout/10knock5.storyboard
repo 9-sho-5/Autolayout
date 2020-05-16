@@ -19,18 +19,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cebu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="g2I-Rl-Kke">
                                 <rect key="frame" x="16" y="50" width="120" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="7Z1-aX-Q5n"/>
-                                    <constraint firstAttribute="height" constant="120" id="80W-3K-IAR"/>
+                                    <constraint firstAttribute="width" constant="120" id="9iT-5w-o4B"/>
+                                    <constraint firstAttribute="height" constant="120" id="TDa-ME-rBL"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gge-NC-sfD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gge-NC-sfD">
                                 <rect key="frame" x="144" y="78" width="67" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HJK-8N-Vhc">
-                                <rect key="frame" x="144" y="113" width="215" height="546"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HJK-8N-Vhc">
+                                <rect key="frame" x="144" y="113" width="215" height="538"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -39,14 +39,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="HJK-8N-Vhc" firstAttribute="leading" secondItem="g2I-Rl-Kke" secondAttribute="trailing" constant="8" id="ADA-MN-Tbg"/>
-                            <constraint firstItem="2wu-oE-9sa" firstAttribute="trailing" secondItem="HJK-8N-Vhc" secondAttribute="trailing" constant="16" id="Cyl-T9-u7k"/>
-                            <constraint firstItem="HJK-8N-Vhc" firstAttribute="top" secondItem="Gge-NC-sfD" secondAttribute="bottom" constant="8" id="E3q-G6-hUI"/>
-                            <constraint firstItem="HJK-8N-Vhc" firstAttribute="top" secondItem="Gge-NC-sfD" secondAttribute="bottom" constant="8" id="HJv-zy-oIc"/>
-                            <constraint firstItem="2wu-oE-9sa" firstAttribute="bottom" secondItem="HJK-8N-Vhc" secondAttribute="bottom" constant="16" id="Omy-3w-Zfq"/>
-                            <constraint firstItem="g2I-Rl-Kke" firstAttribute="top" secondItem="2wu-oE-9sa" secondAttribute="top" constant="50" id="UES-Dt-8V5"/>
-                            <constraint firstItem="g2I-Rl-Kke" firstAttribute="leading" secondItem="2wu-oE-9sa" secondAttribute="leading" constant="16" id="c03-So-jgi"/>
-                            <constraint firstItem="Gge-NC-sfD" firstAttribute="leading" secondItem="g2I-Rl-Kke" secondAttribute="trailing" constant="8" id="tP0-Vn-6n7"/>
+                            <constraint firstItem="Gge-NC-sfD" firstAttribute="leading" secondItem="g2I-Rl-Kke" secondAttribute="trailing" constant="8" id="EGa-sQ-aMM"/>
+                            <constraint firstItem="HJK-8N-Vhc" firstAttribute="top" secondItem="Gge-NC-sfD" secondAttribute="bottom" constant="8" id="GHr-Vo-i89"/>
+                            <constraint firstItem="g2I-Rl-Kke" firstAttribute="leading" secondItem="2wu-oE-9sa" secondAttribute="leading" constant="16" id="Hxc-dw-4h4"/>
+                            <constraint firstItem="2wu-oE-9sa" firstAttribute="trailing" secondItem="HJK-8N-Vhc" secondAttribute="trailing" constant="16" id="XEa-Z6-lhg"/>
+                            <constraint firstItem="g2I-Rl-Kke" firstAttribute="top" secondItem="2wu-oE-9sa" secondAttribute="top" constant="50" id="Zoe-tc-bu0"/>
+                            <constraint firstItem="2wu-oE-9sa" firstAttribute="bottom" secondItem="HJK-8N-Vhc" secondAttribute="bottom" constant="16" id="opb-uR-yKB"/>
+                            <constraint firstItem="Gge-NC-sfD" firstAttribute="top" secondItem="2wu-oE-9sa" secondAttribute="top" constant="78" id="sLb-YO-PX3"/>
+                            <constraint firstItem="HJK-8N-Vhc" firstAttribute="leading" secondItem="g2I-Rl-Kke" secondAttribute="trailing" constant="8" id="sVz-0J-fiR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2wu-oE-9sa"/>
                     </view>
